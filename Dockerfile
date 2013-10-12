@@ -1,4 +1,4 @@
-FROM darron/docker-nginx-php5
+FROM darron/nginx
 MAINTAINER Sagie Maoz <sagie@maoz.info>
 
 RUN git clone git@github.com:clipperz/password-manager.git /clipperz
